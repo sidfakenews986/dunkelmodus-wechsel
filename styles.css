@@ -22,7 +22,7 @@ button {
 }
 
 button:hover {
-    background-color: #d3d3d3; /* Changed to a more accessible light gray */
+    background-color: #c0c0c0; /* Updated to a slightly darker gray for better contrast */
     color: blue;
 }
 
