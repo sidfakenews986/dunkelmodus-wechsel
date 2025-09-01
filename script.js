@@ -7,8 +7,7 @@ if (currentMode) {
 }
 
 toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-    const isDark = document.body.classList.contains('dark');
+    const isDark = document.body.classList.toggle('dark');
     localStorage.setItem('mode', isDark ? 'dark' : 'light');
     updateToggleButtonText(isDark ? 'dark' : 'light');
 });
