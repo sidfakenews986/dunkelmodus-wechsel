@@ -14,5 +14,5 @@ toggleButton.addEventListener('click', () => {
 });
 
 function updateToggleButtonText(mode) {
-    toggleButton.innerText = mode === 'dark' ? 'Wechsel zu Hellmodus' : 'Wechsel zu Dunkelmodus';
+    toggleButton.innerText = mode === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
 }
